@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Project</title>
+    <style>
+        .heading{
+            font-size: 59px;
+           display: flex;
+           align-items: center;
+           justify-content: center ;
+            background-color: brown;
+            margin-top: 0px;
+            height:100%;
+            color:white;    
+        }
+        .heading:hover{
+            background-color: rgba(111, 95, 90, 0.813);
+        }
+        .recomend
+        {
+            background-color: brown;
+            font-size: 40px;
+            margin:0px auto;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            border-bottom: 2px solid black;
+        }
+        #first{
+            background-color: brown;
+            font-size:40px;
+            margin:0px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #right-main{
+            position: relative;
+            bottom: 310px;   
+            
+        }
+        li{
+            margin-bottom: 20px;
+            font-weight: bolder;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }   
+        a:hover{
+            text-decoration:underline;
+            font-weight: 700;
+        }
+        iframe{
+            width: 100%;
+            height: 86%;
+            border-top:2px solid black;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            opacity: .7 ;
+            z-index: 1;
+        }
+        .manage{
+            margin-top:-609px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" style="width:100%; height:600px; border:2px solid rgb(23, 22, 22);">
+        <img src="https://source.unsplash.com/1600x900/?library" alt="">
+        <div class="manage">
+    <div id="menu" style="margin:25px; border:2px solid rgb(6, 6, 6);height:100px">
+        <p class="heading">Books</p>
+    </div> 
+    <div id="left" style="margin:20px; border:2px solid rgb(35, 34, 33); width: 30%">
+    <p class="recomend">Book Recommendations</p>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Story_of_My_Life_(One_Direction_song)" target="iframe_main">The story of my Life</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Gulliver%27s_Travels"  target="iframe_main">Gullivers Travel</a></li>
+        <li><a href="https://www.toppr.com/bytes/three-men-in-a-boat-summary/" target="iframe_main">Three man in a boat</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Godaan" target="iframe_main">Godan</a></li>
+        <li><a href="https://www.bing.com/ck/a?!&&p=874ee8a9f4d06278JmltdHM9MTY5MTcxMjAwMCZpZ3VpZD0yMmIwNGU1Zi1lNWJlLTYwMzktMTA4MS01ZWJlZTQxNjYxODAmaW5zaWQ9NTIyMA&ptn=3&hsh=3&fclid=22b04e5f-e5be-6039-1081-5ebee4166180&psq=mellua+summary&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVGhlX0ltbW9ydGFsc19vZl9NZWx1aGE&ntb=1 " target="iframe_main">Mellua</a></li>
+        <li><a href="https://www.bing.com/ck/a?!&&p=f821869dd15087dfJmltdHM9MTY5MTcxMjAwMCZpZ3VpZD0yMmIwNGU1Zi1lNWJlLTYwMzktMTA4MS01ZWJlZTQxNjYxODAmaW5zaWQ9NTIwNA&ptn=3&hsh=3&fclid=22b04e5f-e5be-6039-1081-5ebee4166180&psq=rich+dad+poor+dad+pdf&u=a1aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQjdPbU5pdGhuOHlDWjJSVmVUUllUMVkyTFZrL3ZpZXc&ntb=1" target="iframe_main">Rich Dad poor dad</a></li>
+        <li><a href="https://www.samuelthomasdavies.com/book-summaries/self-help/atomic-habits/" target="iframe_main">Atomic habits</a></li>
+    </ul>
+    </div>
+    <div id="right-main" style="margin:60%; margin-top:-80px;border:2px solid rgb(18, 18, 18);width:39%;height:350px;">
+        <p id="first">About book</p>
+        <iframe src="" title="Selected Book" name="iframe_main"></iframe>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
